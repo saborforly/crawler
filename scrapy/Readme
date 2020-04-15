@@ -1,0 +1,7 @@
+#1.创建工程 scrapy startproject BaiduStocks   
+#cd BaiduStocks
+#scrapy genspider stocks baidu.com 产生爬虫 生成stock.py文件 类为StocksSpider
+#2.配置和编写spiders目录下stocks.py
+#3.编写Item piplines，即文件piplines.py
+#4.优化策略配置 settings.py
+#scrapy crawl stocks               启动爬虫 
